@@ -3,6 +3,7 @@
 
 
 
+#
 #默认编译后的可执行程序为bin 可通过 BIN=bin.ext 来修改
 BIN = bin
 
@@ -25,8 +26,5 @@ ProgressBar.o : ProgressBar.h
 .PHONY : clean
 clean : 
 	-rm -f $(BIN) $(objects)
-
-
-
 
 
