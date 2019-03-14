@@ -7,4 +7,4 @@
 ## make STATIC=-static
 ## make CC=gcc STATIC=-static
 ## make CC=arm-linux-gcc STATIC=-static
-
+## make BIN=bin.exe
